@@ -1,0 +1,38 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 13vh;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: $black;
+  border-top: 1px solid $black;
+
+  .container {
+    max-width: 1256px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .linkWapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  .link {
+    color: $white;
+    font-size: 50px;
+  }
+
+  .description {
+    color: $white;
+  }
+}

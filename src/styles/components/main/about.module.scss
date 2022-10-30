@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+
+  .wapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+
+    div {
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}

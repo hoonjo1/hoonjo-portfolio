@@ -1,11 +1,14 @@
-import styles from '@/styles/components/main/about.module.scss';
+import styles from '@/styles/components/main/projects.module.scss';
+import CardType from 'src/types/card';
 
-import Title from '../common/title';
+import Title from '@/components/common/title';
+import Card from '@/components/card/card';
 
-const Projects = () => {
+const Projects = ({ PROJECTS_DATA }: { PROJECTS_DATA: CardType[] }) => {
   return (
     <div className={styles.container}>
       <Title title={'PROJECTS'} />
+      <Card item={PROJECTS_DATA} />
     </div>
   );
 };

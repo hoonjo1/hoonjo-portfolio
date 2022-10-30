@@ -21,12 +21,9 @@ export default Navbar;
 
 const MOVE_DATA = [
   {
-    name: 'About me',
-  },
-  {
-    name: 'Skills',
-  },
-  {
     name: 'Projects',
+  },
+  {
+    name: 'About me',
   },
 ];

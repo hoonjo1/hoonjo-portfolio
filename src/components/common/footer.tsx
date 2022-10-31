@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.linkWapper}>
-          {FOOTER_DATA.map((item) => (
-            <Link className={styles.link} href={item.link}>
+          {FOOTER_DATA.map(item => (
+            <Link key={item.link} className={styles.link} href={item.link}>
               {item.icon}
             </Link>
           ))}

@@ -28,8 +28,8 @@ const PROJECTS_DATA = [
      또한, Vercel을 이용하여 정적 웹사이트의 Lean한 배포도 경험해볼 수 있었습니다.`,
     stack: 'next.js, TypeScript, Sass ',
     functions: 'UI, 기능',
-    github: 'https://github.com/hoonjo1/hypercloud-admin-team10',
-    url: 'url',
+    github: 'https://github.com/hoonjo1/hoonjo-portfolio',
+    url: 'https://hoonjo-portfolio.vercel.app/',
   },
   {
     title: '하이퍼 클라우드 어드민 페이지',

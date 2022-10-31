@@ -20,7 +20,13 @@ const Item = ({
         <p className={styles.period}>{period}</p>
         <p className={styles.personnel}>{personnel}</p>
       </div>
-      {src && <img className={styles.img} src={src} alt="project image" />}
+      {url ? (
+        <Link href={url}>
+          <img className={styles.img} src={src} alt="project image" />
+        </Link>
+      ) : (
+        <img className={styles.img} src={src} alt="project image" />
+      )}
       <div className={styles.section}>
         <p className={styles.description}>{description}</p>
       </div>
@@ -28,11 +34,17 @@ const Item = ({
         <p className={styles.category}>사용기술 : {stack}</p>
         <p className={styles.category}>담당기능 : {functions}</p>
         <p className={styles.category}>
-          저장소 : <Link href={github}>GitHub Link</Link>
+          저장소 :
+          <Link className={styles.link} href={github}>
+            GitHub Link
+          </Link>
         </p>
         {url && (
           <p className={styles.category}>
-            배포주소 : <Link href={url}>Link</Link>
+            배포주소 :
+            <Link className={styles.link} href={url}>
+              Link
+            </Link>
           </p>
         )}
       </div>

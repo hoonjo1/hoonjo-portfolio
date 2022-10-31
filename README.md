@@ -17,7 +17,7 @@
 
 ###
 
-- 배포 주소 : [Link](https://hoonjo-portfolio-a97zyol1x-hoonjo1-gmailcom.vercel.app/)
+- 배포 주소 : [Link](https://hoonjo-portfolio.vercel.app)
 
   </br>
 

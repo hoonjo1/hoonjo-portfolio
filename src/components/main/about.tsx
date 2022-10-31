@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import styles from '@/styles/components/main/about.module.scss';
-import Title from '../common/title';
+import Title from '@/components/common/title';
 import { PhoneIcon, MailIcon, GithubIcon, NotionIcon } from '../icons';
 
 const About = () => {
@@ -9,8 +9,8 @@ const About = () => {
     <div className={styles.container}>
       <Title title={'ABOUT ME'} />
       <div className={styles.wapper}>
-        {ABOUT_DATA.map((item) => (
-          <div className={styles.box}>
+        {ABOUT_DATA.map(item => (
+          <div key={item.description} className={styles.box}>
             <div>{item.icon}</div>
             {item.link ? (
               <Link href={item.link}>

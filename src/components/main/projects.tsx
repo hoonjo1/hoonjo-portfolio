@@ -1,5 +1,5 @@
 import styles from '@/styles/components/main/projects.module.scss';
-import CardType from 'src/types/card';
+import CardType from 'types';
 
 import Title from '@/components/common/title';
 import Card from '@/components/card/card';

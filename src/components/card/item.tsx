@@ -21,11 +21,13 @@ const Item = ({
         <p className={styles.personnel}>{personnel}</p>
       </div>
       {url ? (
-        <Link href={url}>
+        <Link href={url} className={styles.imaWapper}>
           <img className={styles.img} src={src} alt="project image" />
         </Link>
       ) : (
-        <img className={styles.img} src={src} alt="project image" />
+        <div className={styles.imaWapper}>
+          <img className={styles.img} src={src} alt="project image" />
+        </div>
       )}
       <div className={styles.section}>
         <p className={styles.description}>{description}</p>

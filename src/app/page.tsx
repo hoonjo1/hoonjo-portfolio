@@ -38,7 +38,7 @@ const PROJECTS_DATA = [
     src: 'https://user-images.githubusercontent.com/94885534/156906981-34323867-8ec7-4f55-9196-053e66389702.png',
     description: `사내 데이터 활용 운전 습관 관리 모바일 애플리케이션
      해당 애플리케이션 서비스 후 승무 사원간 안전 운전 점수 경쟁을 통해. 
-    교통 법규 위반 발생률 및 이용자 서비스 만족도 15% 상승.`,
+    교통 법규 위반 발생률 감소 및 이용자 서비스 만족도 15% 상승.`,
     stack: 'React-Native, Javascript ',
     functions: '프론트엔드',
     github: 'https://github.com/hoonjo1/k-coach',

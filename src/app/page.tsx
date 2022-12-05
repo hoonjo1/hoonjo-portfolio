@@ -19,7 +19,7 @@ export default Page;
 const PROJECTS_DATA = [
   {
     title: '포트폴리오 웹사이트',
-    period: '2022.10.29 ~ 2022.10.31',
+    period: '2022.10 ~ 2022.10',
     personnel: '1인 개발',
     src: 'https://user-images.githubusercontent.com/62737638/198938359-6966e6ee-3315-4000-af71-e86d782e9162.png',
     description: `포트폴리오 용도로 제작한 웹사이트입니다.
@@ -30,6 +30,18 @@ const PROJECTS_DATA = [
     functions: 'UI, 기능',
     github: 'https://github.com/hoonjo1/hoonjo-portfolio',
     url: 'https://hoonjo-portfolio.vercel.app/',
+  },
+  {
+    title: 'K-coach',
+    period: '2021.03 ~ 2021.06',
+    personnel: '팀 개발 (FE 1명 BE 1명)',
+    src: 'https://user-images.githubusercontent.com/94885534/156906981-34323867-8ec7-4f55-9196-053e66389702.png',
+    description: `사내 데이터 활용 운전 습관 관리 모바일 애플리케이션
+     해당 애플리케이션 서비스 후 승무 사원간 안전 운전 점수 경쟁을 통해. 
+    교통 법규 위반 발생률 및 이용자 서비스 만족도 15% 상승.`,
+    stack: 'React-Native, Javascript ',
+    functions: '프론트엔드',
+    github: 'https://github.com/hoonjo1/k-coach',
   },
   {
     title: '하이퍼 클라우드 어드민 페이지',
